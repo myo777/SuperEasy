@@ -1,0 +1,422 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family:Verdana;
+  
+}
+
+.container{
+  overflow:auto;
+  width: 90%;
+  margin: auto;
+  background: #0002;
+}
+
+
+
+.main {
+  float:left;
+  width:48%;
+  margin-top:5px;
+  background-color:white;
+  border:none;
+  margin-left: 20px;
+  
+}
+
+.menu {
+  float:left;
+  width:48%;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+
+.supereasy,.products,.video,.clients {
+  display:block;
+  width:100%;
+  height: 400px;
+  float:left;
+}
+
+
+/*Start Style Guide Of */
+
+.tag {
+  float:left;
+  width:55%;
+  height: 80%;
+  text-align:left;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 23px;
+
+}
+
+.circle {
+  float:left;
+  width:25%;
+  height: 320px;
+  text-align:center;
+  background: #0003;
+  margin-top: 10px;
+  margin-left: 52px;
+  
+}
+
+.title{
+  padding:15px;
+  text-align:center;
+}
+
+.link{
+  color:#7FDBFF;
+  font-size: 8px;
+}
+
+.dot {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: block;
+  margin-left: 55px;
+  margin-bottom: 10px;
+  margin-top: 12px;
+  
+}
+
+
+/*End Of Style Guide */
+
+
+/* Start Of Font Size */
+.xl{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+h4 {
+  font-size: 10px;
+}
+
+h5 {
+  font-size: 8px;
+}
+
+h6 {
+  font-size: 6px;
+}
+
+.pclass {
+  font-size: 8px;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+/* End Of Font Size */
+
+
+
+
+/* Star Of Color */
+
+.purple{
+  background:purple;
+}
+.blueviolet{
+  background: #8A2BE2;
+}
+.maroon{
+  background:#85144b;
+}
+.blue{
+  background:blue ;
+}
+.aqua{
+  background: #00FFFF;
+}
+.aquamarine{
+  background: #7FFFD4 ;
+}
+
+.aquamarine-color{
+  color: #7FFFD4;
+}
+
+.white{
+  background: white;
+}
+
+.silver{
+  background: silver;
+}
+
+.navy{
+  background: #001f3f;
+}
+
+.title{
+  color:purple;
+  
+}
+
+
+/* End Of Color */
+
+
+
+/*Start Of SuperEasy*/
+.supereasy{
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+
+}
+
+.supereasy-top {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  
+}
+
+
+.icon-btn{
+  margin-top: 20px;
+  color:red;
+}
+
+.supereasy-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.supereasy-bottom img{
+  width: 20px;
+  height: 20px;
+}
+
+.supereasy-middle {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-weight: bold;
+  
+}
+
+
+
+
+#myDIV {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  background-color: #85144b;
+  color:white;
+  
+}
+.supereasy-top-middle{
+  position: absolute;
+  top: 6%;
+  right: 22%;
+  text-align: center;
+}
+
+.sidebar a{
+  color:white;
+  text-decoration: none;
+  font-size: 12px;
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+
+.sidebar a:hover{
+  background: purple;
+}
+
+
+/*End Of SuperEasy*/
+
+
+
+/*Start Of Products*/
+.products{
+  position: relative;
+  text-align: left;
+}
+
+.products .left {
+  position: absolute;
+  top: 84px;
+  left: 0;
+  width: 55%;
+  height: 55%;
+  background: yellow;
+  z-index: 10;
+}
+
+.products .left img{
+  height: 100%;
+  width: 100%;
+}
+
+
+.products .right {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 50%;
+  height: 80%;
+  background: silver;
+  border-radius: 2px;
+  padding-top: 30px;
+  padding-left: 35px;
+}
+
+.products .right p{
+  color:purple;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+
+.products .right span{
+  font-size: 6px;
+  font-weight: 200;
+  line-height: 5px;
+}
+.products .right a{
+
+  color:#7FDBFF;
+  font-size: 8px;
+}
+
+/*End Of Products*/
+
+
+
+
+/*Start Of Video*/
+.video{
+  text-align: center;
+  margin: auto;
+  padding: 18px;
+
+}
+
+.video p{
+  color: pink;
+  font-size: 20px;
+
+}
+/*End Of Video*/
+
+
+
+/* Start Of Clients Block*/
+  .clients {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  width: 100%;
+  height: 50%;
+}
+
+.bottom-left {
+  position: absolute;
+  width: 70%;
+  bottom: 22%;
+  height: 50%;
+  margin-left:17%;
+  border: 4px solid #7FFFD4;
+}
+
+.logo{
+  width: 25%;
+  height: 50%;
+  float: left;
+  border: 1px solid #0001;
+}
+
+.logo img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.centered {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  color:#7FFFD4;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+}
+/*End Of Clients Block*/
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right, .tag, .circle {
+    width:100%;
+  }
+
+  .container{
+    position: relative;
+  }
+
+
+  .main{margin: 0;}
+  .dot {
+    display: inline-block;
+    margin:0;
+  }
+
+  .tag{
+
+    margin-bottom: 0;
+    margin-left: 25px;
+  }
+
+  .circle {
+    margin-left: 0;
+    height: 70px;
+  }
+  .circle .dot{
+    margin-top: 13px;
+  }
+
+  .video{
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
